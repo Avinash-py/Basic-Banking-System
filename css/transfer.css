@@ -1,0 +1,73 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+table {
+	width: 80%;
+	letter-spacing: 1.3px;
+	background-color: ;
+}
+
+table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th, td{
+	text-align: center;
+	padding: 12px;
+	font-size: 20px;
+}
+
+td {
+	background-color: #FFF5EE;
+}
+
+th {
+	background-color: #A0522D;
+}
+
+input, select{
+    width: 70%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    border: 1px solid BLACK;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+button {
+	position: relative;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    box-shadow: 0 5px #999;
+}
+
+button :active{
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+span {
+	font-size: 20px;
+}
